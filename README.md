@@ -16,3 +16,9 @@
 /orders/{id}
     - GET
     - DELETE
+
+# Installed
+- express
+
+# Run node
+- node server.js
