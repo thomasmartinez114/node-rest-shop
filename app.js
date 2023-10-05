@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
 // CORS handling
@@ -19,6 +20,9 @@ app.use((req, res, next) => {
 // Routes which should handle requests
 const productRoutes = require('./api/routes/products');
 const productOrders = require('./api/routes/orders');
+
+// Morgan Logging
+app.use(morgan('dev'));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());

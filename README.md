@@ -21,6 +21,8 @@
 - express
 - nodemon
 - body-parser
+- morgan (logging)
 
 # Run node
 - node server.js
+- npm start (w/ nodemon)
