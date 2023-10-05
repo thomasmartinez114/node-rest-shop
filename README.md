@@ -19,6 +19,7 @@
 
 # Installed
 - express
+- nodemon
 
 # Run node
 - node server.js
