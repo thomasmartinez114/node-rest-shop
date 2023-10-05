@@ -20,6 +20,7 @@
 # Installed
 - express
 - nodemon
+- body-parser
 
 # Run node
 - node server.js
